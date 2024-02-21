@@ -16,7 +16,8 @@ export default function Count() {
 
   return (
     <div className="screen">
-      <p className="counter">{counter}</p>
+      <p className="counter">Welcome to The Terra Practice Interview</p>
+      <p className="counter">Counter: {counter}</p>
     </div>
   );
 }
