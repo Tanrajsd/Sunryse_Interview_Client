@@ -1,3 +1,35 @@
+/* Importing Nunito with different font weights */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+/* Importing Nunito Sans with different font weights */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap");
+/* Importing Open Sans with different font weights */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  overscroll-behavior: none;
+
+  div {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    font-family: "Nunito", sans-serif;
+  }
+}
+
 .contentContainer {
   display: flex;
   flex-direction: column;
